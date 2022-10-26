@@ -3,36 +3,39 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Atividade Interdisciplinar</title>
+    <title>Welcome - Boas vindas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="account.svg" type="image/x-icon">
   </head>
   <body>
-    
 
+    
+   
     <div>
       <div class="row">
         <div class="col order-1">
            
-            <div class="form">
-              <h1>Faça Login com <br>Usuário e Senha</h1>
-              <form  action="welcome.php" method="post" id="formDados">
-                <div class="formData">
-                  <input type="text" class="form-control"  name="username" id="username" placeholder="Usuário">
-                  <input type="password" class="form-control" name="pass" id="pass" placeholder="Senha">
-                  <button type="submit" class="btn btn-outline-success">Enviar</button>
-                  <button type="button" class="btn btn-outline-danger">Cancelar</button>
-                </div>
-              </form>
+            <div class="welcome">
+              
+             <?php
+                $user = $_POST["username"];
+                $password = $_POST["pass"];
+                echo "<h1>Welcome, $user!</h1>";
+              ?>
               
             </div>
         </div>
       </div>
     </div>
-    
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="post.js"></script>
+
   </body>
 </html>
+
+
+
