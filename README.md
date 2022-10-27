@@ -1,7 +1,6 @@
 # Atividade Interdisciplinar
 # Matéria: Programação Web
 
-
 <h1>Criar página Web</h1>
 <li>1 Conter Formulário com campos "usuário e senha"</li>
 <li>2 O formulário deve conter um botão de "Enviar" e outro "Cancelar"</li>
@@ -10,11 +9,12 @@
 <li>5 Os dados devem ser passados via "POST"</li>
 <li>6 A página que receber deverá conter mensagem de boas vindas</li>
 
-==================
-Como startar o projeto?
-1 - tenha o php instalado
-2 - clone o repositório.
-3 - rode o comando no cmd ou terminal do seu editor: php -S localhost:3000 ou a porta que preferir.
+<p>==================</p>
+<h2>Como startar o projeto?</h2>
+<li>1 - tenha o php instalado</li>
+<li>2 - clone o repositório.</li>
+<li>3 - rode o comando no cmd ou terminal do seu editor: php -S localhost:3000 ou a porta que preferir.</li>
+<br>
 
 
 
