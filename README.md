@@ -7,7 +7,7 @@
 <li>3 A ação do botão "Enviar" deve passar os dados para outra página HTML</li>
 <li>4 A ação do botão "Cancelar" tem que limpar os campos do formulário</li>
 <li>5 Os dados devem ser passados via "POST"</li>
-<li>6 A página que receber deverá conter mensagem de boas vindas</li>
+<li>6 A página que receber deverá conter mensagem de boas vindas com ou sem o nome que o usuário passar no login</li>
 
 <p>==================</p>
 <h2>Como startar o projeto?</h2>
